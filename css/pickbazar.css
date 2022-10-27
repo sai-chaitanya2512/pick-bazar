@@ -1,0 +1,896 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body
+
+{
+    width: 100vw;
+    height: 100vh;
+    
+}
+.fixedicon
+{
+    width: 20px;
+    height: 20px;
+}
+
+.rightfixed
+{
+    z-index: 3;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px 0px 0px 5px;
+    right: 0;
+    top: 260px;
+    width: 90px;
+    height: 100px;
+    color: white;
+    background-color: rgb(0, 150, 117);
+    /* word-spacing: 1rem; */
+}
+.sizing
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* text-align: center; */
+    height: 30px;
+    width: 60px;
+    border-radius: 5px;
+    color: rgb(0, 150, 117);
+    background-color: white;
+}
+
+
+.menu
+{
+   width: 100%;
+   height: 10%;
+   /* background-color: red; */
+   position: fixed;
+   top: 0;
+    gap: 50px;
+    padding: 2rem;
+    /* padding: 50px; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgba(165, 42, 42, 0.403);
+    border: transparent;
+
+}
+.belowcoming
+{
+    padding: 20px;
+    padding-left: 30px;
+    width:300px;
+    height: 88vh;
+    position: sticky;
+    top: 82px;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    text-transform: capitalize;
+    border-top: 2px solid rgba(128, 128, 128, 0.100);
+    background-color: white;
+    overflow: scroll;
+
+}
+
+@media screen and (max-width:575px) {
+
+    .belowcoming
+    {
+        display: none;
+    }
+    .gridinnerpart{
+   
+        width: 100px;
+
+    }
+  
+}
+
+/* @media screen and (min-width:601px) 
+ {
+
+    .menu
+    {
+        display: none;
+    }
+
+    .gridinnerpart{
+   
+        width: 100px;
+
+    }
+  
+} */
+
+.logo
+{
+    /* padding: 50px; */
+    width: 160px;
+    height: 28px;
+    
+}
+
+
+.apple
+{
+    color: rgb(0, 150, 117);
+}
+
+
+/* .gro
+{
+    display: flex;
+    align-items: center;
+    border: 20px solid grey;
+    background-color: white;
+
+} */
+
+.inside
+{
+    text-transform: capitalize;
+    padding-left: 20px;
+}
+.inside:hover{
+    color: rgb(0, 150, 117);
+    cursor:pointer;
+}
+.backpic
+{
+    text-align: center;
+    height: 650px;
+    background-position: center;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+    background-size: cover;
+    background-image: url(../media/image\ \(2\).webp);
+}
+
+.leftmenu
+{
+    
+    /* background-color: red; */
+     gap: 30px;
+    flex-wrap: wrap;
+     display: flex;
+     flex-direction: row;
+
+}
+
+
+.stickedsearch
+{
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* align-items: center; */
+    /* justify-content: center; */
+    width: 300px;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    margin-right: 30px;
+    background-color: rgba(128, 128, 128, 0.114);
+}
+.stickedsearchicon
+{
+    width: 30px;
+    height: 30px;
+    color: grey;
+}
+
+
+.rightmenu
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    align-items: center;
+    text-transform: capitalize;
+}
+
+.sa:hover{
+    color:black;
+}
+
+.sa
+{
+    text-decoration: none;
+    color: black;
+}
+.me:hover
+{
+    color: rgb(0, 150, 117);    
+}
+
+.become
+{padding: 5px 20px;
+    color: white;
+    background-color: rgb(0, 150, 117);
+    border: none;
+    text-transform: capitalize;
+    border-radius: 5px;
+
+
+}
+
+
+
+.headgro
+{
+    font-size: 50;
+    margin-top:200px;
+    font-family: 'Hind', sans-serif;
+    font-weight: 700;
+
+}
+
+.headpara
+{
+    margin-top: 30px;
+    font-size:18 ;
+}
+
+.searchbar
+{
+    margin-top: 40px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+.searchgreen
+{
+    display: flex;
+    box-shadow: 2px 2px 5px grey;
+    border-radius: 0px 10px 10px 0px  ;
+
+    color: white;
+    justify-content: center;
+    /* text-align: center; */
+    align-items: center;
+    background-color: rgb(0, 150, 117);
+    height: 50px;
+    width: 150px;
+}
+
+
+
+.insearch
+{
+    border: none;
+    background-color: white;
+    box-shadow: 2px 2px 5px grey;
+    border-radius: 10px 0px 0px 10px  ;
+    width: 600px;
+    height: 50px;
+}
+
+.icon
+{
+    width:  25px;
+    height: 250px;
+    color:white;
+}
+
+.trio
+{
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.triopic
+{
+    width: 420px;
+}
+
+
+
+.niches:hover
+{
+    color:rgb(0, 150, 117);
+    cursor: pointer;
+    
+}
+.niches
+{
+    text-decoration: none;
+    transition: 1s;
+    color: black;
+    
+}
+
+.gridinnerpart
+{
+    
+    background-color: white;
+    border-radius: 5px;
+    text-transform:capitalize;
+    border: 2px solid grey;
+    line-height: 1rem;
+    transition: 0.5s;
+ 
+    padding: 20px;
+    width: 250px;
+    height: 380px;
+    border: transparent;
+    overflow: hidden;
+
+
+
+}
+.products
+{
+    width: 100%;
+    height: 65%;
+}
+
+.striked
+{
+    color: grey;
+}
+.add
+{
+    padding-left: 70px;
+    display: flex;
+    border-radius: 5px 5px 5px 5px ;
+    /* padding-top: 2px; */
+    margin-top: 20px;
+    /* padding-top: 5px; */
+    /* float: inline-start; */
+    /* float: left; */
+    align-items: center;
+    text-align: center;
+    /* align-items: center; */
+    justify-content:space-between ;
+    width: 200px;
+    height: 30px;
+    background-color: rgba(128, 128, 128, 0.114);
+}
+
+.add::after
+{
+    /* float: right; */
+    border-radius: 0px 5px 5px 0px ;
+    padding-top: 5px;
+    /* float: inline-end; */
+
+    background-color: rgba(128, 128, 128, 0.214);
+    content: "+";
+    /* border-radius: 0px 5px 5px 0px ; */
+
+    width: 50px;
+    /* height: 100%; */
+    height: 30px;
+
+    float: right;
+}
+.add:hover{
+    color: white;
+
+    background-color:rgb(0, 150, 117);
+}
+
+.add:hover::after
+{
+    color: white;
+    border-radius: 0px 5px 5px 0px ;
+    
+    background-color: rgb(0, 125, 117);
+}
+
+
+
+.individuals
+{
+    /* text-align: start; */
+    /* justify-self: flex-start; */
+    word-spacing: 2px;
+}
+
+.griddiv
+{
+    display:flex;
+    margin-top: 10px;
+    flex-wrap: wrap;
+    /* padding: 20px; */
+    /* display: grid;
+    grid-template-columns: repeat(4,1fr); */
+    /* float: right; */
+    justify-content: center;
+    width: 88%;
+    gap: 15px;
+   
+    /* grid-template-columns: 300px 300px 300px 300px; */
+}
+
+.dropdowngrid
+{
+    display: flex;
+    /* padding: 10px; */
+    /* justify-content: space-between; */
+    /* gap: 10px; */
+    width: 100%;
+    background-color: rgba(128, 128, 128, 0.100);
+}
+
+.gridinnerpart:hover
+{
+    /* width: 250px; */
+    /* height: 350px; */
+    transform: translateY(-5px);
+    transition: 0.5s;
+    cursor: pointer;
+    /* z-index:-1; */
+    box-shadow: 0px 5px 5px rgba(128, 128, 128, 0.39) ;
+    
+
+}
+
+.jill
+{
+    z-index: 3;
+}
+
+.grade:hover
+{
+    color: white;
+}
+
+
+
+.grade
+{
+    text-decoration: none;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* -------------------------------------------------------------------------shop now--------------------------------------------------------------------- */
+/* .griddivs
+{
+    display: grid;
+    /* flex-direction: column; */
+
+.shopnowmenu
+{
+       width: 100%;
+       height: auto;
+       background-color: white;
+
+       position: fixed;
+       top: 0;
+        gap: 50px;
+        padding: 2rem;
+        box-shadow: 0px 1px 2px .5px rgba(128, 128, 128, 0.396);
+        /* padding: 50px; */
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        /* background-color: rgba(165, 42, 42, 0.403); */
+        border-bottom: 1px solid rgba(128, 128, 128, 0.347);
+        /* border: transparent; */
+    
+}
+
+.hat
+{
+    /* text-indent: 20px; */
+    width: 100%;
+    height: 565px;
+    padding-top: 150px;
+    /* display: flex; */
+    /* justify-content: center; */
+    /* flex-direction: column; */
+}
+
+
+.gridcontainer
+{
+    /* padding-top: 500px; */
+    width: 100%;
+    /* height: 500px; */
+    /* padding: 300px; */
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: repeat(3,auto) ;
+    /* row-gap: 2px; */
+    display: flex;
+    flex-wrap: wrap;
+    padding: 50px;
+    gap: 25px;
+    padding-top: 20px;
+   
+    /* background-color: rgba(255, 0, 0, 0.298); */
+}
+
+
+.gridcontainerinner
+{
+
+    border-radius: 5px;
+    font-size: 13;
+    padding-top: 30px;
+    padding: 10px;
+    gap: 15px;
+    color: grey;
+    justify-content: center;
+    align-items: center;
+    width: 380px;
+    height: 11  0px;
+    /* border: 2px solid rgrgba(128, 128, 128, 0.396); */
+    border: 2px solid rgba(128, 128, 128, 0.158);
+    display: flex;
+}
+
+
+.shopnowimg
+{
+    border-radius: 50%;
+    width:  65px;
+    height: 65px;
+}
+.iconshopnow
+{
+    width: 20px;
+    height: 20px;
+}
+
+
+/* ------------------------------------------------------------offers------------------------------------------------------------------------------- */
+
+
+
+
+
+
+.hatter
+{
+    /* text-indent: 20px; */
+    width: 100%;
+    height: autopx;
+    padding: 30px;
+    background-color: lightblue;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    grid-template-columns: repeat(4,auto);
+    padding-top: 150px;
+}
+
+.offerimg
+{
+    border-radius: 5px;
+width: 300px;
+}
+
+
+.offerinner
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.offerinnerpara:hover{
+    cursor: pointer;
+    /* color: rgb(0, 150, 117); */
+}
+
+.offerinnerpara
+{
+    background-color: white;
+    width: 290px;
+    height: 50px;
+    align-items: center;
+    padding: 5px;
+    justify-content: space-between;
+    display: flex;
+    border-radius: 0px 0px 7px 7px ;
+    gap: 10px;
+}
+
+
+.offeranchor:hover{
+    color: rgb(0, 150, 117);
+}
+
+.offeranchor
+{
+    text-decoration: none;
+    color: rgb(0, 150, 117);
+}
+
+
+
+/* ------------------------------------------------------------faq------------------------------------------------------------------------------- */
+
+
+
+.faqinner
+{
+    /* background-color: rgba(128, 128, 128, 0.18); */
+    padding: 200px;
+    /* margin-top: 500px; */
+        width: 100%;
+        /* background-color: grey; */
+        height: auto;
+
+       
+}
+
+.jiga:hover
+{
+  border: 2px solid black;
+}
+
+.faqheading
+{
+    margin-bottom: 2rem;
+    text-align: center;
+
+}
+
+/* ------------------------------------------------------------cotacts------------------------------------------------------------------------------- */
+
+
+
+.both
+{
+    background: rgba(128, 128, 128, 0.149);
+    width: 100%;
+    justify-content: center;
+    height: auto;
+    padding-left: 100px;
+    flex-wrap: wrap-reverse;
+    display: flex;
+    padding-right: 100px;
+    padding-bottom: 50px;
+    padding-top: 150px;
+    gap: 20px;
+}
+
+.imgform
+{
+    background-color: white;
+    width: 450px;
+    padding: 30px;
+    border-radius: 10px;
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    /* align-items: center; */
+    height: auto;
+}
+
+.workingwomen
+{
+    width: 400px;
+}
+
+
+.kool
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.plainform
+{
+    background-color: white;
+    width: 700px;
+    padding: 30px;
+    /* justify-content: center; */
+    /* align-items: center; */
+    gap: 20px;
+    border-radius: 10px;
+    display: flex;
+    /* a[] */
+    /* align-items: space-evenly; */
+    flex-direction: column;
+    /* justify-content: center; */
+    /* align-items: center; */
+    height: auto;
+
+}
+
+.forminput
+{
+    border: 2px solid rgba(128, 128, 128, 0.192);
+    /* border: none; */
+    width: 310px;
+    height: 50px;
+    border-radius: 5px;
+}
+.forminputs
+{
+    border: 2px solid rgba(128, 128, 128, 0.192);
+    /* border: none; */
+    width: 100%;
+    height: 50px;
+    border-radius: 5px;
+}
+
+.inne{
+    display: flex;
+    /* gap: 0px; */
+    justify-content: space-between;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+
+.ignite
+{
+    width: 20px;
+    height: 20px;
+    /* margin-left:; */
+
+}
+
+.submit
+{
+    padding: 10px 5px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    width: 20%;
+    background-color: rgb(0, 150, 117);
+}
+
+
+/* -----------------------------------------------------------------become--------------------------------------------------------------------------- */
+
+
+
+.becomes
+{
+
+
+    font-family: 'Hind', sans-serif;
+font-family: 'Nunito Sans', sans-serif;
+    width: 100%;
+    display: flex;
+    font-weight: 100;
+    border: none;
+    justify-content: center;
+    align-items: center;
+
+    height: 100vh;
+    background-color: rgba(128, 128, 128, 0.138);
+}
+
+.becomeinners
+{
+    border: none;
+ 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    width: 500px;
+    height: 600px;
+    background-color: white;
+    /* border: 1px solid grey; */
+    border-radius: 10px;
+    box-shadow: 0px .5px 2px grey;
+    
+}
+
+.formpic
+{
+    width: 35%;
+    height: 30px;
+
+}
+
+.forumsss
+
+{
+    width: 88%;
+    /* height: 600px; */
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: black;
+    justify-content: center;
+    /* align-items: center; */
+    /* color: grey; */
+}
+
+.foruminputss
+{
+    width: 100%;
+    border: transparent;
+    height: 40px;
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+
+.regina
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(0, 150, 117);
+    color: white;
+    border-radius: 5px;
+    width: 88%;
+    height: 45px;
+    border: none;
+}
+
+
